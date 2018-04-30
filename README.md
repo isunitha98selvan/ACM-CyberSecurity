@@ -2,7 +2,7 @@
 
 This repository contains all the coursework and assignments for the summer mentorship project 2018 on Cyber Security and Programming with Crypto API.
 
-***How to submit assignments?
+How to submit assignments?
 1)Fork the repository.
 2)Clone the forked repository using:
   git clone https://github.com/your-username/ACM-CyberSecurity.git
@@ -18,7 +18,7 @@ This repository contains all the coursework and assignments for the summer mento
  git push origin master
 5)Login to github and send a pull request to isunitha98selvan/ACM-CyberSecurity.
 
- ***To configure upstream:
+To configure upstream:
 git remote add upstream https://github.com/isunitha98selvan/ACM-CyberSecurity.git
 To pull the latest changes:
 git fetch upstream
