@@ -1,5 +1,11 @@
 smrithi s
+<<<<<<< HEAD
 first year 
 mechanical branch
 nitk surathkal
 
+=======
+first year
+mechanical branch
+nitk surathkal.
+>>>>>>> fafcf955f3fb270b7478684ad38aa2b2789af1ba
