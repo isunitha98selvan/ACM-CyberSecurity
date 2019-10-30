@@ -34,7 +34,7 @@ How to submit assignments?
 
 To configure upstream:
 
-git remote add upstream https://github.com/isunitha98selvan/ACM-CyberSecurity.git
+git remote add upstream https://github.com/ACM-NITK/ACM-CyberSecurity.git
 
 To pull the latest changes:
 
