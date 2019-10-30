@@ -1,0 +1,10 @@
+Ans 1. role
+Ans 2. 16
+Ans 3. Upload Price List
+	View Price File
+Ans 4.	5500-0000-0000-0004
+Ans 5. fred and landon is with whole.biz
+Ans 6. SSOid
+Ans 7.CartID
+Ans 8.hash of password,e-mail,full name,roel
+Ans 9. Field 3 

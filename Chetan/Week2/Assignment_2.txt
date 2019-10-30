@@ -1,0 +1,32 @@
+	Defending Against Specific Denial of Service Attacks
+
+	On 28th Feb,2018 , DDoS attack was done on github.com. The attackers used UDP memcached data to attack on github. The amplification of attack was about 51K, means for every byte send by attacker, victim receives 51KB of data. One of the possible solution that actually they had done is that it rerouted the malicious request to a DDoS security website( here it was Akamai Prolexic). Another way may be that ISP should take care that whatever packet they are transferring should have source address of their network only. Even if one is using UDP, it should respond in smaller size packet than the size of requested packet.
+
+
+
+Case Study
+
+Ans 1.
+  Yes, there are some problems with the precautions taken by Runa. She had blocked ICMP packets so now she will not get support from ICMP for detection of internal problem. She is using SYN cookies so it will result in some loss of information of TCP.
+
+Ans 2.
+  She can take following additional steps to prevent risk of attack:
+  1. She can disable UDP if it is not in use. This will protect from memcached attack. 
+  2. She can include Captcha that will stop the risk of attack to some extent.  
+
+  ANS 1.
+  We can adjust firewall so that no incoming ICMP packets are allowed. We can even adjust firewall such that there will be proxy and each incoming request should pass through proxy before it actually comes to server. 
+
+ANS 2.
+  Through Trojan horse malware, bot is made. So, protecting against Trojan horse will protect a computer from being bot and hence prevent DoS attack.
+
+ANS 3.
+  1.Increasing Backlog queue
+  Increasing backlog space can contribute additional time for recovery of the site.
+   
+   2. Recycling the Oldest Half-Open TCP connection
+   This technique include overwriting new connection on old connection that is not handshake.
+
+   3. SYN cookies
+   This technique include freeing of port after sending SYN/ACK request from the port.
+
